@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def hompage(request):
 	return render(request, 'core/index.html')
+
+def index(request):
+	return render(request, 'core/home.html')
