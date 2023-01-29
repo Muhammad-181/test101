@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-virtualenv /home/ubuntu/env
-source /home/ubuntu/env/bin/activate
+virtualenv /home/ubuntu/test/venv
+source /home/ubuntu/test/venv/scripts/activate
 pip install -r /home/ubuntu/test/requirements.txt
